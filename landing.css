@@ -76,10 +76,7 @@
      
   }
   
-/* .main:hover{
-  transform: translateY(20px);
-  min-width: 100%;
-} */
+
   .we-text{
     font-size: 75px;
     font-weight: 600;
@@ -265,9 +262,6 @@ align-items: baseline;
     display: flex;
     margin-top: 9px;
     max-width: 170px;
-    /* position: relative;
-    right: 155px;
-    top: 20px; */
     justify-content: space-between;
   }
   .footer{
@@ -334,28 +328,13 @@ align-items: baseline;
      .menu-button{
       display: block;
     } 
-    /* .novel-img{
-      width: 105px;
-    height: 145px;
-    margin: 0;
-    }
-    .main{
-      margin-top: 0;
-    }
-    .books-name{
-      font-size: 12px;
-    }
-    .cart{
-      width: 27px;
-    height: 27px;
-    } */
+
     .img-2{
       width: 460px;
     }
  
     .we-text{
       font-size: 45px;
-      
       line-height: normal;
     }
     .text-a{
@@ -403,9 +382,6 @@ align-items: baseline;
     }
   }
   @media(max-width: 640px){
-  /* *{
-  overflow-x: hidden;
- }   */
     body{
   overflow-x: hidden;
   max-width: 100%;
