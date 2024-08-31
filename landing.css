@@ -10,7 +10,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
   }
   nav{
-    /* background-color: #d4b996; */
     background-color: #ffff;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   }
@@ -76,10 +75,7 @@
      
   }
   
-/* .main:hover{
-  transform: translateY(20px);
-  min-width: 100%;
-} */
+
   .text{
     font-size: 75px;
     font-weight: 600;
