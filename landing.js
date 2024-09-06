@@ -7,6 +7,6 @@ function showSidebar(){
     sidebar.style.display = 'none';
   }
    document.querySelector('#bout').addEventListener('click', ()=>{
-document.querySelector('.dis').style.animation = 'slideInFromLeft 1s ease'
+document.querySelector('menu-button').style.animation = 'slideInFromLeft 1s ease'
    });
     
