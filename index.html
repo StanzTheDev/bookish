@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="landing.css">
+  <link rel="stylesheet" href="styles.css"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta+Vaani:wght@200&family=Mukta:wght@200;300&family=Noto+Sans&family=Noto+Sans+Display&family=Noto+Sans+Mono&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ojuju:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta+Vaani:wght@200&family=Mukta:wght@200;300&family=Noto+Sans&family=Noto+Sans+Display&family=Noto+Sans+Mono&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li class="ho"><a href="#">Home</a></li>
+      <li class="ho"><a href="#">About</a></li>
+      <li class="ho"><a href="#">Books</a></li>
+      <li class="ho"><a href="#">Blog</a></li>
+    </ul>
+    <ul>
+      <li><a href="#"><img class="logo-img" src="20240527_155500.jpg" alt=""></a></li>
+      <li class="hideOnMobile"><a href="#">Home</a></li>
+      <li id="bout" class="hideOnMobile"><a href="#uss">About</a></li>
+      <li class="hideOnMobile"><a href="#explore">Books</a></li>
+      <li class="hideOnMobile"><a href="#">Blog</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+  <main  id="" class="main">
+    <div class="all">
+  <h2 class="we-text">Welcome To<br> Bookish
+  </h2> <br>
+  <p class="text-a">Explore our curated collections of timeless classics and contemporary of bestsellers. <br>Discover your next great <span class="text-a-span">read.</span></p>
+<a href="#explore"><button class="btn-1">Explore</button></a>
+</div>
+  <img class="img-2" src="shutterstock_523462210.jpg" alt="">
+</main>
+<h2 data-aos="fade-up" id="uss" class="about-h2">About Us</h2>
+<div class="about-all">
+  <div data-aos="fade-right" class="img-3"></div>
+   <div data-aos="fade-left" class="about"><div class="about-text">
+    <h2 class="text-b">We Provide The Best Of <span class="span-2"> Literatures</span></h2> <br>
+  <p>ipsum Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim sint amet, alias sapiente reiciendis ullam repudiandae praesentium perferendis nobis culpa corrupti iste sit fuga libero tempora cumque animi ea aliquid?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio unde consequatur necessitatibus enim, quasi, similique moll
+  </p>
+  </div>
+  </div>
+</div>
+<p class="literature-type">African Literatures</p>
+<button id="explore" data-aos="fade-up" class="btn-2">fantasy</button>
+<div data-aos="fade-up" class="group">
+  <div class="container">
+  <div class="box">
+    <img class="novel-img" src="OIP.jpeg" alt=""> 
+  </div>
+  <div class="book-info">
+    <p class="books-name">Who fears<br>Death</p>
+  <a href="https://www.amazon.com/Audible-Who-Fears-Death/dp/B0C7LM2L22/ref=sr_1_1?crid=3VO7FABVAYJ12&dib=eyJ2IjoiMSJ9.ylEn0CzRAKh_nO4wtSlfLKkwvhO_SmxcfKL9cqKk-UQAdCvr3oTwcSaUKU9vp4IDA6w_Tt34cmJReyZKM1ps1RUyYUioi0-NFFeMDScSGqXpHzTvVH2crXUji78FVwPausztRWxkJ_L6DF5nDkKKp2h1t5sG7s5xJTdU_k19h4D0e-MgAkHAWlSn8gWbiHLzJJk3Q7tVVVB0gB0rDY31Aqp9dx48qH3KbKMMBoTzq7U.kDVQZ1DlT1p5q5niLxiTQQ9xtVUG8rXBv-guda3hJz0&dib_tag=se&keywords=who+fears+death+nnedi+okorafor&qid=1715187819&sprefix=who+fears+%2Caps%2C500&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+  </div>
+  </div>
+  <div class="container">
+    <div class="box">
+      <img class="novel-img" src="417vYyvHGPL.jpg" alt="">
+    </div>
+    <div class="book-info">
+      <p class="books-name">The Icarus<br>Girl</p>
+    <a href="https://www.amazon.com/The-Icarus-Girl-A-Novel/dp/B0060K2W96/ref=sr_1_1?crid=2E4WFXVSR897L&dib=eyJ2IjoiMSJ9.dePl6mValCQZ-akt9UuP0HuxQxDm5sizS4Yj79cAUSLuBGBj70vj8PajwBGLuVUBpjLosPsqY0c1NKF0783cyHLC7caPUT25zItLfulPstMkne9CgJ76N24LQBg3aGPyAmbRY2wsOcyEKjtJWt1m-fFE4fGkPeu5sbHX8oa21kP5S_E9Jx9Inj8jHnxEnhc-zhHs-Lfqf0H_V-B-Cc7ftudNIFwzfXmyVK0Fa2kZARk.biGpmXnGnUJPqaqwoWZJReXR_Cjjj1ekVBmmrHe4LYQ&dib_tag=se&keywords=the+icarus+girl&qid=1714757382&sprefix=the+icar%2Caps%2C489&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+    </div>
+    </div>
+    <div class="container">
+      <div class="box">
+        <img class="novel-img" src="81TxB8Xb6aL._AC_UY327_FMwebp_QL65_.webp" alt="">
+        
+      </div>
+      <div class="book-info">
+        <p class="books-name">Black Leopard<br>Red Wolf</p>
+      <a href="https://www.amazon.com/Black-Leopard-Red-Wolf-audiobook/dp/B07K7Y6WTY/ref=sr_1_1?crid=2H8Y7EUXVELCA&dib=eyJ2IjoiMSJ9.QJV_3YD5Pp0s594PXQklBRrYT5qzDAkrFcWgkPqDUlTei0FZxkLUJDam_mu-e4E_5bP9vy46DWOFB_tzD6qIsw_cleyiocQEVyULadZtJNc8KSGG4XcGnPx5sbMOShI7FCOXtnejZ6bkDnYPrbtbM7vE7030VawcNCwkEcN8X6YI-eF6H4Lf_3RY0ycHRuclfJGlUHLBuNKCAc5EjNOlIbZkq4tgjcZUFYZyEe_SkW0.xU4PqLvKM70y04wVW3mtmybgFRHSM6UqxxypbMICFNU&dib_tag=se&keywords=black+leopard+red+wolf&qid=1714757197&sprefix=black+leopard+wolf%2Caps%2C475&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+      </div>
+      </div>
+      <div class="container">
+        <div class="box">
+          <img class="novel-img" src="81J5qpQau7L._AC_UY327_FMwebp_QL65_.webp" alt="">
+
+        </div>
+        <div class="book-info">
+          <p class="books-name">The Rage Of<br>Dragons</p>
+        <a href="https://www.amazon.com/The-Rage-of-Dragons-Evan-Winter-audiobook/dp/B07Q25P8DZ/ref=sr_1_1?crid=2A4VQIPUB7PZY&dib=eyJ2IjoiMSJ9.wS7NdjOE6gzrXb0PjiGXAYVry6hAqPvZx4YfSSyE4guqRJN6fOmV9vWava_iKsLFjIu_8MusOIxT_7AzrmQQHM8cJYQqQulCE9eXyZVzXe6TzOQRqPBpjFtfl37ghFhjvuUAgUH1aDP4vMYOPJSLfpsZeZkwhDjsuZFGgeL8f5grjGLBWJ9qjeRucmMhzoX2wMQFKLsb3PkRkmOpZb-nyvTE-bKmPoBL1B3EKC4FIGs.kgFVDkgs-kRWNVyG-BCp88erclClhX_Mc-uWeCVV598&dib_tag=se&keywords=the+rage+of+dragons&qid=1714758041&sprefix=the+rage+of+%2Caps%2C470&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+        </div>
+        </div>
+        <div class="container">
+          <div class="box">
+            <img class="novel-img" src="51BD5VFFS2L.jpg" alt="">
+            
+          </div>
+          <div class="book-info">
+            <p class="books-name">The Glided<br>Ones</p>
+          <a href="https://www.amazon.com/Gilded-Ones-Deathless-Book/dp/B082FRT7YX/ref=sr_1_1?crid=2IM873AJQ7NSY&dib=eyJ2IjoiMSJ9.l_tUQnaAFXueCcpC8LeyIfZHTs6DtiBF8ZqYDyNWyDQF2TrKDcblQHHanJ-kGpVi34hkUk19kIPxYjzEiHMtebrHx2eOF_26OexlMbBMeyfCOKPvpMvKzpOIHm3cwckAxsa4HOmtItEZVngE8wJgLDI0k2iF_Lx0qnD5FqWCA-QF8JPu1bkZg_dZf3lkn0PN1Jeaq607bPxG1V4ukbfqAeeD6k4n8d2Yqk7jxEXZ5mg.ZT6_tCldEmlB6BHbocCaUW7GMohYGcso_XD21o4SrAY&dib_tag=se&keywords=the+gilded+ones&qid=1714670135&sprefix=the+gilded+one%2Caps%2C434&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+          </div>
+          </div>
+          
+</div>
+
+<button data-aos="fade-up" class="btn-2">romance</button>
+<div data-aos="fade-up" class="group">
+  <div class="container">
+  <div class="box">
+    <img class="novel-img" src="81t8zzApsuL._AC_UY327_FMwebp_QL65_.webp" alt=""> 
+  </div>
+  <div class="book-info">
+    <p class="books-name">Aya<br>Courtenay</p>
+  <a href="https://www.amazon.com/Aya-Love-City-Marguerite-Abouet/dp/1770460926/ref=sr_1_1?crid=2ZJGL6N3YUGNE&dib=eyJ2IjoiMSJ9.lAMfv5vILxgrylf5um268G8-XnNKYfBqzHhtjlF64cTQ7wWD0mfHVFdhL2ufUEdXJKdnB1siv7u2rTEEvMDibkwpiMWCHK3RytqLZb26v_RzocMgRMT5hLcy3A-fAJa6WsvGF8Dr_meHrwe2mXoKf34jPMPX0Yvq2TYqqNwVavPVZvNQTRZA5TY7n_SPVqh753u9HxfQDVJU5WGuZbEiaUBioich_O_BkUTU-XGSA5I.rfdtuS713CUTZiyhnsIGL8nhauViaCZSTQbotnB_4io&dib_tag=se&keywords=aya+love+in+yop+city&qid=1714758295&s=audible&sprefix=aya%3A+love+%2Caudible%2C268&sr=1-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+  </div>
+  </div>
+  <div class="container">
+    <div class="box">
+      <img class="novel-img" src="91qk1yiQXGL._AC_UY327_FMwebp_QL65_.webp" alt="">
+      
+    </div>
+    <div class="book-info">
+      <p class="books-name">Sorcerer To The<br>Crown</p>
+    <a href="https://www.amazon.com/Sorcerer-Crown-Novel-Book-ebook/dp/B00SI0B91S/ref=sr_1_1?crid=36O6VM4HSVTUB&dib=eyJ2IjoiMSJ9.11aSuRm9xMavXcYbu61fOVzmkHCNQPmCmPeRdvE9S8gELkE3lzFYx6sVc948shipmppOKjyKhQ74gv0usXY_9uY4OfoA1unCqg9PvpPgWiNlEkqAk9BAAkDUcxxHe7rlnMDe5iBCXHk5RJL57dNt8iDErk2svrhzXDnlRqQKtfqPtro58MQSnZsfIrP40Si6jitJpogPxl66DQOtmf2ryloDFi_Phpv5pB5pEsyaAis.XT-pA2fZhlVOOX14q2eKyhBqg9JwPvmZNOo4ds7oQ-0&dib_tag=se&keywords=sorcerer+to+the+crown&qid=1714758473&sprefix=sourcer+to+the%2Caps%2C674&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+    </div>
+    </div>
+    <div class="container">
+      <div class="box">
+        <img class="novel-img" src="51EeBDoCR9L._AC_UY327_FMwebp_QL65_.webp" alt="">
+        
+      </div>
+      <div class="book-info">
+        <p class="books-name">Benath The<br>Lion's gaze</p>
+      <a href="https://www.amazon.com/Beneath-Lions-Gaze-Maaza-Mengiste/dp/0393338886/ref=sr_1_1?crid=3SF6S0JBXOQL8&dib=eyJ2IjoiMSJ9.24tDIHyEFPF50p-dJmEFOnRG5vy7jolQuHOmyGuzJinA_7DDpdIavVXgARYstsZsqjshEo1O8eD5s_a_cv3fwEicMC5RxzFHeYgPHzssVMB2vGx2G4X_8PSi2xd8XbkpZGBjD6LWnybrVY_wsp-t0k4wA0j3y7NA3EM-xugWwCAwTRJoo4ThS_1scd98qbj2Da0Uq-ze-Cqp2e3pSuPi1Ta_j7teq_ABqCITtkkiuUs.m0ALnZBPAA8YZI1pNaWXKB-xaZSFpcYNzg28MdGFVk4&dib_tag=se&keywords=beneath+the+lions+gaze&qid=1714758335&sprefix=beneath+the+lio%2Caps%2C261&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+      </div>
+      </div>
+      <div class="container">
+        <div class="box">
+          <img class="novel-img" src="download.jpeg" alt="">
+
+        </div>
+        <div class="book-info">
+          <p class="books-name">Everfair</p>
+        <a href="https://www.amazon.com/Everfair-Nisi-Shawl-audiobook/dp/B01LZO2KN0/ref=sr_1_1?crid=3RHIC2GRLBLYU&dib=eyJ2IjoiMSJ9.yLDnNvMb3Bt91nLMBh2Q79CTWTw9XFKV0bo6rH3jJKKPJj1UiG8KQW7I7ZDZe-AU5BMCIEAzvKRyeov-ivhlZFBtJVKWELhK8A9KY0e7DVEZN0B_JFKa_cjO4PYJkfbe2FyEkXWdLbS1mCJN_oyKfQ.mW4RTPJJDSYl-Wf00fyRehCQx0zrWPbU6UOdCxC3-tQ&dib_tag=se&keywords=everfair&qid=1715188971&sprefix=everfair%2Caps%2C412&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+        </div>
+        </div>
+        <div class="container">
+          <div class="box">
+            <img class="novel-img" src="81lo9Ny17sL._AC_UY327_FMwebp_QL65_.webp" alt="">
+            
+          </div>
+          <div class="book-info">
+            <p class="books-name">Daughter<br>Of Nri</p>
+          <a href="https://www.amazon.com/Daughters-of-Nri-Reni-K-Amayo-audiobook/dp/B07VMTMY1V/ref=sr_1_1?crid=2PUV0K6YB5SRS&dib=eyJ2IjoiMSJ9.12p4WyMMZF6nGQ3Lo_OiHVzw9oloU5dO49xRUqVUV-NJVKZp-JYnj-Z-HmnYe1XqF2IqfJt6i_6luGU0_vfwEhghGxXWs6GmhVh4n8fDGk9Bnn0XQs1UnzxH9SHQXZcc1-7UUy1DpfWRrLLCCtTiofCg_WDTP09AaDvuvY-_DAt9_l1SRJy-ySOIrsQQiEjEVYnHWAHBEURVAdNSiE2780A5n8xr_p3Si88kO01caZc.IgTmsHzaNkkQ9CTjfIxHFrt8n5CX160eQl1mCjNFNzk&dib_tag=se&keywords=daughters+of+nri&qid=1714758213&sprefix=daughters+of+nri%2Caps%2C417&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+          </div>
+          </div>
+          
+</div>
+
+<button data-aos="fade-up" class="btn-2">Mystery</button>
+<div data-aos="fade-up" class="group">
+  <div class="container">
+  <div class="box">
+    <img class="novel-img" src="71LTvL4rW7L._AC_UY327_FMwebp_QL65_.webp" alt=""> 
+  </div>
+  <div class="book-info">
+    <p class="books-name">Cairo<br>Trilogy</p>
+  <a href="https://www.amazon.com/Cairo-Trilogy-Palace-Everymans-Library/dp/0375413316/ref=sr_1_1?crid=48RIP9TWDEWH&dib=eyJ2IjoiMSJ9.rh0f6MXX0R0w96eeFK9-v6R4zW8nywT-ta2PN09H-45aozjD8ZAM6XZwsE-mMdVjeKa6-Stez7fpdjJyJuj1euqM5s2bL2PHFgtYl5qjoUY278gD8FcKMqandHPzMVy5GY7F-56-qJ9IU2OUP4yGaxopZNJSPisZZpKgR8mWlxQhRzQbWur9yn8SXOa6jdSXzUA3MhkjhGAnKZ9MEpv9vCFEf-6pKSYAy4awoOAZ32k.ETvTTi5aK1RsSRbeB4OrvdivDbGZ6gHJfs7Z-2P8CUI&dib_tag=se&keywords=cairo+trilogy+by+naguib+mahfouz&qid=1714761199&sprefix=cairo+tr%2Caps%2C495&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+  </div>
+  </div>
+  <div class="container">
+    <div class="box">
+      <img class="novel-img" src="71V5et37BCL._AC_UY327_FMwebp_QL65_.webp" alt="">
+      
+    </div>
+    <div class="book-info">
+      <p class="books-name">Five Nights Before<br>The Summit</p>
+    <a href="https://www.amazon.com/Nights-before-Summit-Mukuka-Chipanta-ebook/dp/B0CZK77R9G/ref=sr_1_1?crid=14U6PPNT5GMMG&dib=eyJ2IjoiMSJ9.z9LGxwsR5ZhRvwigRhjq0iVU1QWNeZUIay_Ywe5JhZYamSxFBR2l6Vu6u0TsN2Wy3iEIx4ZVpF8SAivYBIZLgjGPjKF70WleKkAMyaAER7-fe7Sc9ZOCelnW08d1hV207eKbT31lR22W1mjfmcJ8WzNy0iyJ4mVOyc_17xiS1XZTAl1cD2B-YNZYJXqp5ZRWUOsU5-CHAQMNlgWvzXdEdMxuY8Px9Ndug1uO_cZ9cMQ.TCLu3iysoyysPiy3EE7gLbKyMvIHzFvFLU3Ba9bB9M8&dib_tag=se&keywords=five+night+before+the+summit&qid=1715116295&sprefix=five+night+before+the+summ%2Caps%2C792&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+    </div>
+    </div>
+    <div class="container">
+      <div class="box">
+        <img class="novel-img" src="61DjIUVpcQL._AC_UY327_FMwebp_QL65_.webp" alt="">
+        
+      </div>
+      <div class="book-info">
+        <p class="books-name">Black Water<br>Rising</p>
+      <a href="https://www.amazon.com/Black-Water-Rising-Novel-Porter/dp/006173585X/ref=sr_1_1?crid=2BZBYHUOWFLJA&dib=eyJ2IjoiMSJ9.FIWsGDDC-h0R7breus7B8OCNVvZ_loZDWbPAo2uxdx_jV2KlU45kzBAnUaWP6f3MHS0dd-uJg25gIZMq4Uh07N1LhvhmE05ykgNLOsgOfQIIDxbBDsph2C6XXuw3eZdcuGDSOaOG_4wmyti5tE039TMmLpG8DryTdkAq25vwPtPoik3j27VhCQV2aSQ9oWiVkRWVy6BVR4t2VgoQLc3lC5zk2epaR3PEfNuE2yRE-3E.Bq9ZATbcFSOV3AldALdSIx8rQf0RSl5srTcsoReef5A&dib_tag=se&keywords=black+water+rising&qid=1714761066&sprefix=black+water+rising%2Caps%2C640&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+      </div>
+      </div>
+      <div class="container">
+        <div class="box">
+          <img class="novel-img" src="91l5Osjt3rL._AC_UL480_FMwebp_QL65_.webp" alt="">
+
+        </div>
+        <div class="book-info">
+          <p class="books-name">The No 1 Ladies'<br>Detective</p>
+        <a href="https://www.amazon.com/No-Ladies-Detective-Agency-Book/dp/1400034779/ref=sr_1_1?crid=2FPMYQQKWWA81&dib=eyJ2IjoiMSJ9.OYC_s-Gh-gzRi9_-C55iTfuvhU0klvL2Q9YaUTdOaVW4eZGtWjhkFtuF-G7y6rNbmQgtWqZ5br_RGysWCjrWgErPtY_yXdztoevwP1u-QqeXHxsw0_uwcTK74V-GQJpKXZ3dcCJAl9uLif9MPPJq2A5w_EuQ6FquE8L-3pVQXngpzR-l1EbR2Mzo3V4wIm0L5LWJwhX0HaU7m6LPmjnSnRHFeTlM8MnJTM4Y1LJQ7Is.MwGGfCitp-zHnqhzUqW6li62h2ulmfzysqdgdDbwf2E&dib_tag=se&keywords=the+no+1+ladies+detective+agency&qid=1714761438&sprefix=the+no+1+la%2Caps%2C579&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+        </div>
+        </div>
+        <div class="container">
+          <div class="box">
+            <img class="novel-img" src="819+pktBOwL._AC_UY327_FMwebp_QL65_.webp" alt="">
+            
+          </div>
+          <div class="book-info">
+            <p class="books-name">Hour Of The<br>Red God</p>
+          <a href="https://www.amazon.com/Hour-Red-God-Detective-Mollel/dp/0374171998/ref=sr_1_1?crid=1YBFC8IFX664Y&dib=eyJ2IjoiMSJ9.gPMzQjJ6rwakJvKw4j8qB7SsPGkMKNV9eZu7Pn9Ezeuyi7PyJODkabs2-s1kGLyPqMAoGC3z8AGqghnIKP3KPLzE0FEQOLDf9V-BJrLDIY_Eya6uERa7ruFQlC9-Ijx1TuhPvfdO1LfGdjKy24OyLtrimMa4AY05sJm8UvgG3urmofTIQgbEfJlXK9LG1YYJIk5IyG4QgUdGlYwUET7NEMuk_KzNqOBfWk-VU8MTsBg._GRX84WYyjX-1RuDLjtRhb4j7IcJuRhqVn_eWLlMWkY&dib_tag=se&keywords=hour+of+the+red&qid=1715117113&sprefix=hour+of+the+red%2Caps%2C731&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+          </div>
+          </div>
+          
+</div>
+<button data-aos="fade-up" class="btn-2">Fiction</button>
+<div data-aos="fade-up" class="group">
+  <div class="container">
+  <div class="box">
+    <img class="novel-img" src="71qByiwA5yL._AC_UY327_FMwebp_QL65_.webp" alt=""> 
+  </div>
+  <div class="book-info">
+    <p class="books-name">We Need<br>New Names</p>
+  <a href="https://www.amazon.com/We-Need-New-Names-Novel/dp/0316230847/ref=sr_1_1?crid=P496XPRMP2JX&dib=eyJ2IjoiMSJ9.Q1G0iKbLp8TuLwCK6L8Wpc-J8ZuyF9YkR3INFAUfQCuOGmgN7TQP5jC-kiwzM7l9viOoB4FH-__2t04PIUTHet0hCAYspNKe1hCtl9d0-ygH_UDTjmVwnOLD7RYLNXDQQ4dWAymI0bTN-fN19CFzkdlcwwfgmvP08amBUdE3r2Okx8L_Oehst1iRPGJU612xrvAUaEnzQ8o4cGRLDQFkXLHzjNn8TH0N6fPLRuBveJU.tCFuHvVAsPSY_SbEhVdEL-khf13dB-VFgrnap81cZ9o&dib_tag=se&keywords=we+need+new+names+by+noviolet+bulawayo&qid=1714761722&sprefix=we+need+new+%2Caps%2C499&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+  </div>
+  </div>
+  <div class="container">
+    <div class="box">
+      <img class="novel-img" src="71tm-Ul5xyL._AC_UY327_FMwebp_QL65_.webp" alt="">
+      
+    </div>
+    <div class="book-info">
+      <p class="books-name">The Memory<br>Of Book</p>
+    <a href="https://www.amazon.com/Book-Memory-Novel-Petina-Gappah/dp/0865479070/ref=sr_1_1?crid=334AC0UJOBYII&dib=eyJ2IjoiMSJ9.yiUCrktfjHWY1lA4WPI9MdhHWWV-1U0sVrd67BMiW-UZAATJ6XcAiA8JH-c-WEPFvbrOQLHqXm43r2cm4Pk70pc3JEAchXPOy0-Bvg5_gNszE_gZQHvUnWrjVlXeYJXzxgBuFahEbhg2j20j_iPzp_vdnILekk-bh6CyibY76r-c4MlrbQ1N0solcc_tc1cYNeklvuWurbUYmHvgeR8pLnLV6HwRtIaj5XfF1mV48l8.u3Z6Q5-H7_ZlsqUZxmv9d7ev8XAO8xIqUwXTb1_paYM&dib_tag=se&keywords=the+book+of+memory+petina&qid=1714761675&sprefix=the+book+of+memory+petin%2Caps%2C431&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+</div>
+    </div>
+    <div class="container">
+      <div class="box">
+        <img class="novel-img" src="91NtvTU0xEL._SL1500_.jpg" alt="">
+        
+      </div>
+      <div class="book-info">
+        <p class="books-name">Things Fall<br>Apart</p>
+      <a href="https://www.amazon.com/Things-Fall-Apart-Chinua-Achebe/dp/0385474547/ref=sr_1_1?crid=38ZSMPVTYGP20&dib=eyJ2IjoiMSJ9.kTvwdUeBdHo9mD_TXG2fKY0hzdT--N5Ua-aPhtX1xpchg5ka68hai10yRZqoXkjlHhhugu2Gzgh6BmsXjAD7TXeFDyPAuyGQyNtHVT3HyVq2zY6tNBFxpGCI_CSEITVf5M87A6wVk0VcnWyq4nhyNkbW99p8I5KKxrQsXr-vsitac8k7ZBha5tvXT2ZzeFVwPyCydL78U57PVyhGyI6D6GcM6BSNHKiU0b2Ml9EQlUM.t04PmFQY7xvMwmb3dEsyMdcsJX2daRAbcrub1TVacjc&dib_tag=se&keywords=things+fall+apart&qid=1714761502&sprefix=things+fall%2Caps%2C455&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+      </div>
+      </div>
+      <div class="container">
+        <div class="box">
+          <img class="novel-img" src="91RJ6HiiiDL._SL1500_.jpg" alt="">
+
+        </div>
+        <div class="book-info">
+          <p class="books-name">Beyond The Door<br>Of No Return</p>
+        <a href="https://www.amazon.com/Beyond-Door-No-Return-Novel/dp/0374606773/ref=sr_1_1?crid=35YNQMC91745O&dib=eyJ2IjoiMSJ9.TF5YP_0F171M2A2hWlzaJsLF54tv8GA_53MNcehXJBGjUSJF3HsLU8dIQZzKZAS7VAmahc36cVFFeQ03dGuyqtAQP3luD2bvxMplpkjar5_9N36dc39ZRF9vaseM0QGKdYZRP_aP4EB9OoLlIMNvVL_RWOSWnuO52mfp3N-cVJqGNQJTAvn6I6dbkA9idQzweWrCpDUnviz6263CDqfGG0eisA9SdO-AyWYEpZmGkLM.1M3jIiHuYVehJZSduImzR-pj8LnZfGglXnz6GB0AWB4&dib_tag=se&keywords=beyond+the+door+of+no+return&qid=1715186437&sprefix=beyond+the+door+of+no+%2Caps%2C591&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+        </div>
+        </div>
+        <div class="container">
+          <div class="box">
+            <img class="novel-img" src="71fRiosThzL._AC_UY327_FMwebp_QL65_.webp" alt="">
+            
+          </div>
+          <div class="book-info">
+            <p class="books-name">Half Of A<br>Yellow Sun</p>
+          <a href="https://www.amazon.com/Half-Yellow-Chimamanda-Ngozi-Adichie/dp/1400095204/ref=sr_1_1?crid=1PHD3ZDGRD6L1&dib=eyJ2IjoiMSJ9.lIZfm23NKehRGAN8TSD9ecMzku2OUqiAp3bJtTLntrbkbbqLL96U8dFhz1TppTgLei4kaBif_A8RXvtpeHhiY3AlcYQF-S_LDqdDikZg92h7l00eBfIkUIM7iLahZhNjayF8uWAc0x-7tZlzX6YabUhLq4JK9mVPlgOVeJuEgOb9uxn8y4xxedLp4RrvweNtJqj0iaS6QNK4-05_ed1yvWUYFNcHM08Oo--uT-KaMQE.-ln86YML-uQb_MdkGP-YOakWXfnNJA_XbNvOayiCQnM&dib_tag=se&keywords=half+of+a+yellow+sun&qid=1715187206&sprefix=half+of+a+y%2Caps%2C756&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+          </div>
+          </div>
+          
+</div>
+
+<button data-aos="fade-up" class="btn-2">Horror</button>
+<div data-aos="fade-up" class="group">
+  <div class="container">
+  <div class="box">
+    <img class="novel-img" src="71jzozfgACL._AC_UY327_FMwebp_QL65_.webp" alt=""> 
+  </div>
+  <div class="book-info">
+    <p class="books-name">The Beautiful Ones<br>Are Not Yet Born</p>
+  <a href="https://www.amazon.com/Beautyful-Ones-Born-African-Writers/dp/0435905406/ref=sr_1_1?crid=3S4RS2LGY2EBL&dib=eyJ2IjoiMSJ9.Qi1XgPOqkqpYTrXTo4fqqrYttcGwHukt67g_4eALtuxjJoZTIDnxQNjsF36QWvAFToEREGJsjALbJ1Uy911lD56r7YBN8hNjYq9w1DhcxCTWGug5yHqZLxi8G9M0wQg6uzdCoc7BQG77ChFvzFC66P2jmRJgtOG633yjw89TAM8exCBIlxI_KWcmsoHWNxM_HAXObpkltHSarFKTS1aCf9IDDlUSTJsrGT5N7dfJwmM.WbnhuTXUQHWmv_00AQHOsCbBEAvmF3Fb3NAgD8xHEi0&dib_tag=se&keywords=the+beautiful+ones+are+not+yet+born&qid=1715115837&sprefix=the+beautiful+ones+are+not+yet+bor%2Caps%2C1017&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+  </div>
+  </div>
+  <div class="container">
+    <div class="box">
+      <img class="novel-img" src="71bOEXL4aSL._AC_UY327_FMwebp_QL65_.webp" alt="">
+      
+    </div>
+    <div class="book-info">
+      <p class="books-name">The Famished<br>Road</p>
+    <a href="https://www.amazon.com/Famished-Road-Ben-Okri/dp/0385425139/ref=sr_1_1?crid=34XY8FOTCDKCS&dib=eyJ2IjoiMSJ9.rV5eH33rnTtRofV0nebq1zobUJeKsH9oIIxUhgyBPIOOfoCh_U4MWwaF7kuXZ7kbQ7Xo4cxlMjnQGMqXBU4yuvRg2kDzkmIOMQ7RQrHICXVt1GdVRImSmasH7V2qerx0MnFcuG1NF7zGbjjwf5fJLMV_8uwzL_DsqmeRFcxVPMOqpp3uZ3fGJ97OmYxC0FGQIWJn4gvar8zR9hpuoG44hvC4nb8iQ3r8JnzqHp11Nbc.bOT_N1Gj912-am4IxO5iIbvEljUZkx_LGZEVTUAneDQ&dib_tag=se&keywords=the+famished+road&qid=1715115684&sprefix=the+famished%2Caps%2C1176&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+</div>
+    </div>
+    <div class="container">
+      <div class="box">
+        <img class="novel-img" src="81XWgLuLiDL._AC_UY327_FMwebp_QL65_.webp" alt="">
+        
+      </div>
+      <div class="book-info">
+        <p class="books-name">Freshwater</p>
+      <a href="https://www.amazon.com/Freshwater-Akwaeke-Emezi/dp/0802128998/ref=sr_1_1?crid=28P3QLROLI6HI&dib=eyJ2IjoiMSJ9.gkL-aUZq277LILm-3FX_k0nxGm_7-qwrTryV7BEY6uiZawz7Dft5vSWFcXQsoCWksVt4_adU7VvfIk3NjQtossHikCrgj7NOSECpdObn1U-6nubaV6IuQxhht1JQvlWBedkBI-o2eRBm1ajMvq90VhQmSO59etidNOY-6F499PWzf1VdH12ntT8cUd7u2edcCkJH7SjdLK0tQOv84EmK3-Ki-m6IJnfprmhmRjKTjfI.knuHN91iG9DWQvHrhoYphS1QGQcgmTca8w-ldwOzjIQ&dib_tag=se&keywords=freshwater+emezi&qid=1715186294&sprefix=freshwater+emez%2Caps%2C2561&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+      </div>
+      </div>
+      <div class="container">
+        <div class="box">
+          <img class="novel-img" src="91NlE6vV3xL._AC_UY327_FMwebp_QL65_.webp" alt="">
+
+        </div>
+        <div class="book-info">
+          <p class="books-name">A Stranger In<br>Olondria</p>
+        <a href="https://www.amazon.com/Stranger-Olondria-novel-Sofia-Samatar-ebook/dp/B00CEHWTMO/ref=sr_1_1?crid=1XN1B045C6M2P&dib=eyJ2IjoiMSJ9.MzjAx6woPyeKYkzyF_1IuPjf7YdQ03U1jjwA7OcPHkPGjHj071QN20LucGBJIEps.JAb93d6-MbgjbNnPlOjkRu5tjP2auCQS6u3KLdfLaas&dib_tag=se&keywords=a+stranger+in+olondria&qid=1715115736&sprefix=a+stranger+in+olondria%2Caps%2C891&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+        </div>
+        </div>
+        <div class="container">
+          <div class="box">
+            <img class="novel-img" src="916eLV1-YdL._AC_UY327_FMwebp_QL65_.webp" alt="">     
+          </div>
+          <div class="book-info">
+            <p class="books-name">Bryce<br>Courtenay</p>
+          <a href="https://www.amazon.com/The-Ghost-Bride-Yangsze-Choo-audiobook/dp/B00E67H916/ref=sr_1_1?crid=E2BZV31I95ZV&dib=eyJ2IjoiMSJ9.1KFlfuyBHtgTpW31aKv9EZk0lwVulsMrqIdeJh50UjT0B6O5Gs1NHU9t-69JrgrePGoCyK9026L4vXI_HpG_d_Km_0NC_DNJngpUUoq3AU0z9p2UcrFb6l0PIt5PJkn-uSMrjbmU-sFAq9hxd4no1tHvJZO27xubj2Al3oDJhvr-tgsZE5qsdaPxLoXas-EVl6jg1hNCzVvfvdE9Z5fRn_KcdurgmSaCEnJqSvWcygc.WBz_t3PcUmoHK_A9HnzJ8CANirQda8RvikvRWi5jv_4&dib_tag=se&keywords=the+ghost+bride&qid=1715115604&sprefix=the+ghost+bride%2Caps%2C2004&sr=8-1" class="btn-3"><img class="cart" src="shopping-cart.png" alt=""></a>
+          </div>
+          </div>
+          
+</div>
+<p data-aos="fade-up" class="b-text">Weekly Blog</p>
+<div data-aos="fade-up" class="weekly">
+  <div class="soon-a">
+    <p class="soon">coming soon</p>
+    <img class="illu-img" src="undraw_Reading_re_29f8__1_-removebg-preview.png" alt="">
+  </div>
+</div>
+<div class="search-container">
+  <h1 class="search-h3">Search for Books</h1>
+  <input type="text" id="searchQuery" placeholder="Search for any book.">
+  <button class="search-btn" onclick="searchBooks()">Search</button>
+  <div id="results"></div>
+</div>
+
+
+<div class="footer">
+  <div class="footer-all">
+  <div class="footer-a">
+    <p class="bookish">Bookish</p>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum rem possimus minus? Aliquid dolorum voluptatum in incidunt maiores ad beatae, consequuntur autem et dolor perspiciatis magni facilis dolore eum dolores!Lorem
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+  </div>
+
+  
+  <div class="footer-li">
+
+      <ul>About Us</ul>
+      <ul>Blog</ul>
+      <ul>Explore</ul>
+      <ul>Contact Us</ul>
+  
+  </div>
+ 
+</div>
+<p class="dev">&copy StanxTheDev</p> 
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+ <script src="landing.js"></script>  
+ <script src="search.js" defer></script>
+</body>
+</html>
