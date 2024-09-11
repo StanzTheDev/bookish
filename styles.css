@@ -1,0 +1,37 @@
+#results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 20px;
+    justify-content: center;
+
+  }
+  
+  .book {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    max-width: 300px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .book img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .book h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .book p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
